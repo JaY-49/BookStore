@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Kalam";
+    src: url(../../fonts/Kalam-Regular.ttf)
+}
+@font-face {
+    font-family: "Rajdhani";
+    src: url(../../fonts/Rajdhani-Regular.ttf)
+}
+@font-face {
+    font-family: "RightHouse";
+    src: url(../../fonts/Righteous-Regular.ttf)
+}
+
+
+
+#home-container {
+    border-style: none;
+    margin: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#home-top {
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url("../../../components/images/26102.jpg");
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap:400px;
+    align-items: center;
+
+}
+#home-left{
+    font-family: RightHouse;
+    margin-left: 120px;
+}
+#home-right{
+    text-align: left;
+    font-family: "Rajdhani";   
+    margin-right: 70px;
+}
+
+#home-left h1{
+color: white;
+}

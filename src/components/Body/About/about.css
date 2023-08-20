@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Obr";
+    src: url(../../fonts/Orbitron-VariableFont_wght.ttf)
+}
+@font-face {
+    font-family: "kalam";
+    src: url(../../fonts/Kalam-Regular.ttf)
+}
+@font-face {
+    font-family: "cevet";
+    src: url(../../fonts/Caveat-VariableFont_wght.ttf)
+}
+@font-face {
+    font-family: "Press";
+    src: url(../../fonts/PressStart2P-Regular.ttf)
+}
+
+
+#main-block-about{
+
+    backdrop-filter: blur(10px);
+    border-style: none;
+    margin: 20px;   
+    border-radius: 20px;
+    /* backdrop-filter: blur(10px); */
+
+    text-align: center;
+}
+
+#main-block-about h1{
+    font-family: "Obr";
+}  
+#main-block-about h3{
+    margin: 20px;
+    color: coral;
+    text-align: right;
+    font-family: "Obr";
+} 
+#about-container{
+    margin: 20px;
+    display: flex;
+}
+#paragraph{
+    font-family: "kalam";
+    font-size: 25px;
+    margin: auto;
+}

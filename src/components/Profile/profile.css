@@ -1,0 +1,17 @@
+#main-container{
+
+    backdrop-filter: blur(10px);
+    color: coral;
+    margin: 20px;
+    border-style: none;
+    text-align: center;
+}
+#profile-container{
+    
+}
+#admin-tools{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+

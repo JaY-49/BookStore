@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Handjat";
+    src: url(../fonts/Handjet-Bold.ttf)
+}
+
+@font-face {
+    font-family: "PressStart";
+    src: url(../fonts/PressStart2P-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Obriton";
+    src: url(../fonts/Orbitron-VariableFont_wght.ttf)
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: coral;
+    border-style: none;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Obriton;
+}
+
+#navbar li {
+    list-style: none;
+    position: relative;
+}
+
+#navbar li a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3 ease-in-out;
+
+}
+
+#navbar li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+#navbar li a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#navbar-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+    font-size: 25px;
+    gap: 20px;
+}
+
+#navbar-title {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'PressStart';
+    gap: 20px;
+}
+
+
+#click::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(96, 61, 33);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+#click:hover::after {
+    transform: scaleX(1);
+}
