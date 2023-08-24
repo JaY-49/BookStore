@@ -50,3 +50,8 @@
 #home-left h1{
 color: white;
 }
+@media only screen and(max-width:480px) {
+    #home-top{
+        display: none;
+    }
+}

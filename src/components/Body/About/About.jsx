@@ -21,7 +21,7 @@ function About() {
           </p>
           <p>The layout of BOOKIFY encourages serendipitous discoveries. Wander through aisles that wind around cozy reading nooks and comfortable armchairs, perfect for getting lost in a few pages before making your selection. The store's rustic wooden floors creak gently underfoot, adding to the sense of timelessness.</p>
           <p>The selection at BOOKIFY is a harmonious blend of classic and contemporary works, catering to all reading tastes. From fiction that transports you to distant lands to non-fiction that sparks intellectual curiosity, the collection is a testament to the store's commitment to celebrating the diverse world of literature.</p>
-          <h3>Siuuuuuuu.</h3>
+          {/* <h3>Siuuuuuuu.</h3> */}
         </div>
       </div>
 

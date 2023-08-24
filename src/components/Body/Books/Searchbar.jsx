@@ -6,7 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 function Searchbar() {
 
         // const handleChange = (event) => {
-         
+
         // };
   return (
     <div id='searchbar'>

@@ -4,7 +4,6 @@ const BASEURL = "https://book-e-sell-node-api.vercel.app/api/user"
 
 class UserService {
 
-
     GetAllUsers = async () => {
         return axios.get(`${BASEURL}/all`)
     }
@@ -19,9 +18,7 @@ class UserService {
     EditUser = async(payload) => {
         console.log(payload);
         return axios.put(`${BASEURL}`, payload)
-    }
-    
+    }   
 }
-
 
 export default new UserService();
